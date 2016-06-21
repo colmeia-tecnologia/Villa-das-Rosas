@@ -13,6 +13,7 @@
                 {
                     codigo:         $('#codigo').val(),
                     telefone:       $('#telefone').val(),
+                    whatsapp:       $('#whatsapp').is(":checked"),
                     ativo:          $('#ativo').val(),
                     request:        'salvaTelefones'
                 },
